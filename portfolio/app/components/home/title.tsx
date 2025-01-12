@@ -8,9 +8,9 @@ const Title = () => {
     router.push("/");
   };
   return (
-    <div>
-      <div onClick={handleTitleClick}>Ajay Edupuganti</div>
-    </div>
+    <h3 id="my-name" onClick={handleTitleClick}>
+      Ajay Edupuganti
+    </h3>
   );
 };
 
